@@ -3,19 +3,19 @@ code for "Semi-supervised Compatibility Learning Across Categories for Clothing 
 
 ## Paper data and code
 
-This is the code for the ICME 2019 Paper: [Semi-supervised Compatibility Learning Across Categories for Clothing Matching](https://). We have implemented our methods in **Tensorflow**.
+This is the code for the ICME 2019 Paper: [Semi-supervised Compatibility Learning Across Categories for Clothing Matching](https://arxiv.org/pdf/1907.13304.pdf). We have implemented our methods in **Tensorflow**.
 
 Here are two datasets we used in our paper. After downloaded the datasets, you can put them in the folder `data/`:
 
-- Taobao: <http://>
+- Taobao: <https://tianchi.aliyun.com/dataset/dataDetail?dataId=52> the released dataset is been changed a litte by Alibaba. If you want the totally same dataset as the paper used, you can click [here](http://).
 
-- Amazon: <http://>
+- Amazon: <http://jmcauley.ucsd.edu/data/amazon/links.html>
 
 ## Usage
 
-You need to run the file  `data/preprocess.py` first to preprocess the data.
+You need to run the file  `data/data_preprocess.py` first to preprocess the data.
 
-For example: `cd datasets; python preprocess.py --dataset=sample` ('preprocess.py' is still on arrangement.)
+For example: `cd data; python data_preprocess.py`
 
 ```bash
 usage: preprocess.py [-h] [--dataset DATASET]
