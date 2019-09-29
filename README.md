@@ -15,16 +15,18 @@ Here are two datasets we used in our paper. After downloaded the datasets, you c
 
 You need to run the file  `data/data_preprocess.py` first to preprocess the data.
 
-For example: `cd data; python data_preprocess.py`
+`cd data; python data_preprocess.py`
+
+Then use vgg-16 to generate the image feature of each items from their images. Click [here]() if you don't want to generate image feature again, we will upload our extracted feature on Google Drive. 
+
+`python convert_image.py`
+
 
 ```bash
-usage: preprocess.py [-h] [--dataset DATASET]
 
 Then you can run the file `./clothing_matching.py` to train the model.
 
-For example: `cd pytorch_code; python main.py --dataset=sample`
-
-You can add the suffix `--nonhybrid` to use the global preference of a session graph to recommend instead of the hybrid preference.
+For example: `cd pytorch_code; python clothing_matching.py`
 
 You can also change other parameters according to the usage in the file './config.py':
 
