@@ -38,14 +38,15 @@ You can also change other parameters according to the usage in the file './confi
 - Tensorflow 1.5.0
 
 ## Citation
-If you find FiGNN useful for your research, please consider citing the following paper:
+If you find SCGAN useful for your research, please consider citing the following paper:
 ```
-@inproceedings{li2019fi,
-  title={Fi-gnn: Modeling feature interactions via graph neural networks for ctr prediction},
+@inproceedings{li2019semi,
+  title={Semi-Supervised Compatibility Learning Across Categories for Clothing Matching},
   author={Li, Zekun and Cui, Zeyu and Wu, Shu and Zhang, Xiaoyu and Wang, Liang},
-  booktitle={Proceedings of the 28th ACM International Conference on Information and Knowledge Management},
-  pages={539--548},
-  year={2019}
+  booktitle={2019 IEEE International Conference on Multimedia and Expo (ICME)},
+  pages={484--489},
+  year={2019},
+  organization={IEEE}
 }
 ```
 
