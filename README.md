@@ -1,7 +1,7 @@
 # SCGAN
-code for "Semi-supervised Compatibility Learning Across Categories for Clothing Matching" in ICME2019
+Code for "Semi-supervised Compatibility Learning Across Categories for Clothing Matching" in ICME2019
 <div align=center>
-  <img src="https://github.com/CRIPAC-DIG/SCGAN/blob/ed1110385c39fbbb8cce763b3a6ebc510a871c3a/figures/UCLANs2.png" width = 50% height = 50% />
+  <img src="https://github.com/CRIPAC-DIG/SCGAN/blob/faec6e65cde7d25c5b5f15e853222dff36979dc1/figures/UCLANs2.png" width = 50% height = 50% />
 </div>
 
 ## Paper data and code
