@@ -22,7 +22,7 @@ Then use vgg-16 to generate the image feature of each items from their images. C
 `python convert_image.py`
 
 
-```bash
+
 
 Then you can run the file `./clothing_matching.py` to train the model.
 
@@ -30,7 +30,7 @@ For example: `cd pytorch_code; python clothing_matching.py`
 
 You can also change other parameters according to the usage in the file './config.py':
 
-```bash
+
 
 ## Requirements
 
