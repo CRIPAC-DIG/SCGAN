@@ -1,12 +1,12 @@
 # SCGAN
-Code for "Semi-supervised Compatibility Learning Across Categories for Clothing Matching" in ICME2019
+Code and data for "Semi-supervised Compatibility Learning Across Categories for Clothing Matching" in ICME2019
 <div align=center>
   <img src="https://github.com/CRIPAC-DIG/SCGAN/blob/faec6e65cde7d25c5b5f15e853222dff36979dc1/figures/UCLANs2.png" width = 50% height = 50% />
 </div>
 
 ## Paper data and code
 
-This is the code for the ICME 2019 Paper: [Semi-supervised Compatibility Learning Across Categories for Clothing Matching](https://arxiv.org/pdf/1907.13304.pdf). We have implemented our methods in **Tensorflow**.
+This is the data and code for the ICME 2019 Paper: [Semi-supervised Compatibility Learning Across Categories for Clothing Matching](https://arxiv.org/pdf/1907.13304.pdf). We have implemented our method in **Tensorflow**.
 
 Here are two datasets we used in our paper. After downloaded the datasets, you can put them in the folder `data/`:
 
