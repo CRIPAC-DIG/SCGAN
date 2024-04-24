@@ -1,12 +1,12 @@
 # SCGAN
-Code and data for "Semi-supervised Compatibility Learning Across Categories for Clothing Matching" in ICME2019
-<div align=center>
-  <img src="https://github.com/CRIPAC-DIG/SCGAN/blob/faec6e65cde7d25c5b5f15e853222dff36979dc1/figures/UCLANs2.png" width = 50% height = 50% />
-</div>
 
-## Paper data and code
+<img src="https://github.com/CRIPAC-DIG/SCGAN/blob/faec6e65cde7d25c5b5f15e853222dff36979dc1/figures/UCLANs2.png" alt="model" style="zoom: 50%;" />
 
-This is the data and code for the ICME 2019 Paper: [Semi-supervised Compatibility Learning Across Categories for Clothing Matching](https://arxiv.org/pdf/1907.13304.pdf). We have implemented our method in **Tensorflow**.
+This is the code for the ICME 2019 Paper: [Semi-supervised Compatibility Learning Across Categories for Clothing Matching]().
+
+## Usage
+
+### Paper data and code
 
 Here are two datasets we used in our paper. After downloaded the datasets, you can put them in the folder `data/`:
 
@@ -14,7 +14,7 @@ Here are two datasets we used in our paper. After downloaded the datasets, you c
 
 - Amazon: <http://jmcauley.ucsd.edu/data/amazon/links.html>
 
-## Usage
+### Quick Start
 
 You need to run the file  `data/data_preprocess.py` first to preprocess the data.
 
@@ -24,16 +24,11 @@ Then use vgg-16 to generate the image feature of each items from their images. C
 
 `python convert_image.py`
 
-
-
-
 Then you can run the file `./clothing_matching.py` to train the model.
 
 For example: `cd pytorch_code; python clothing_matching.py`
 
-You can also change other parameters according to the usage in the file './config.py':
-
-
+You can also change other parameters according to the usage in the file './config.py'
 
 ## Requirements
 
@@ -41,7 +36,9 @@ You can also change other parameters according to the usage in the file './confi
 - Tensorflow 1.5.0
 
 ## Citation
-If you find SCGAN useful for your research, please consider citing the following paper:
+
+Please cite our paper if you use the code:
+
 ```
 @inproceedings{li2019semi,
   title={Semi-Supervised Compatibility Learning Across Categories for Clothing Matching},
@@ -52,4 +49,3 @@ If you find SCGAN useful for your research, please consider citing the following
   organization={IEEE}
 }
 ```
-
