@@ -2,7 +2,7 @@
 
 <img src="https://github.com/CRIPAC-DIG/SCGAN/blob/faec6e65cde7d25c5b5f15e853222dff36979dc1/figures/UCLANs2.png" alt="model" style="zoom: 50%;" />
 
-This is the code for the ICME 2019 Paper: [Semi-supervised Compatibility Learning Across Categories for Clothing Matching]().
+This is the code for the ICME 2019 Paper: [Semi-supervised Compatibility Learning Across Categories for Clothing Matching](https://ieeexplore.ieee.org/document/8784792).
 
 ## Usage
 
